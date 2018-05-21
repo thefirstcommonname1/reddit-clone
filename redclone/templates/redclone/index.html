@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forum</title>
+  </head>
+  <body>
+    <h1>Main Forum listings</h1>
+    {% for object in objects %}
+      <li> <a href="#">{{ object.title }}</a></li>
+    {% endfor %}
+  </body>
+</html>
