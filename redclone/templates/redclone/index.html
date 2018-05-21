@@ -7,7 +7,7 @@
   <body>
     <h1>Main Forum listings</h1>
     {% for object in objects %}
-      <li> <a href="#">{{ object.title }}</a></li>
+      <li> <a href="{{ object.id }}">{{ object.title }}</a></li>
     {% endfor %}
   </body>
 </html>
