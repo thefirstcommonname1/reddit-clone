@@ -9,5 +9,7 @@
     <h2>{{ objects.title }}</h2>
     <p>{{ objects.content }} </p>
     <em>{{ objects.votes }}</em>
+    <a href="{% url 'upvote' objects.id  %}">Upvote</a>
+    <a href="{% url 'downvote' objects.id %}">Downvote</a>
   </body>
 </html>

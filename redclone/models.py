@@ -6,6 +6,5 @@ class Forum(models.Model):
     content = models.TextField()
     votes = models.IntegerField()
 
-
     def __str__(self):
         return self.title
